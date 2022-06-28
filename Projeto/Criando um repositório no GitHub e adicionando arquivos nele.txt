@@ -1,0 +1,29 @@
+Criando um repositório no GitHub e adicionando arquivos nele
+
+1 - Logar no GitHub e clicar em "New repository";
+2 - Colocar um nome para o repositório em "Repository name";
+3 - Opcionalmente pode ser colocada uma descrição pro repositório
+em "Description (optional);
+4 - Selecionar a opção "Public" para que fique visível à comunidade;
+5 - Clicar em "Add a README file" para adicionar este arquivo que funciona
+como um página inicial do repositório;
+6 - Clicar em "Create repository" para que seja criado o repositório;
+7 - Com o repositório criado, clicar em "Code" copiar o link que está
+em HTTPS;
+8 - No computador, criar um pasta e abrir o Git Bash nela (dentro da pasta
+clicar no botão direito do mouse e selecionar "Git Bash Here");
+9 - Com o Git Bash aberto, dar o comando "git clone" e colar o link copiado
+anteriormente e dar enter para executar o comando, com isso o repositório
+criado no GitHub será enviado para o computador local;
+10 - No Git Bash digitar "cd" e o nome do repositório e dar enter, com este 
+comando o repositório será aberto no Git Bash;
+11 - No servidor local, criar um arquivo dentro do repositório;
+12 - Agora, para passar as atualizações que foram feitas no servidor local
+para o servidor remoto do GitHub, é necessário dar uns comandos no Git Bash;
+13 - Primeiro comando é "git add ." para adicionar todos os arquivos;
+14 - Depois é a vez do comando "git commit -m "Inclusão do passo a passo 
+para criar um repositório no GitHub e adicionar arquivos nele"";
+15 - Em seguida tem que ser dado o comando "git push origin master" para 
+mandar o commit para a nuvem;
+16 - Depois é só atualizar a página do GitHub que todos os arquivos
+criados localmente estarão no servidor remoto. 
